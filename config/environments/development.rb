@@ -28,5 +28,5 @@ Pinteresting::Application.configure do
   config.assets.debug = true
 
   #Required for Heroku
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
